@@ -14,7 +14,7 @@ section{
   height: 450px;
 }
 .top-banner {
-  background-image: url("images/top-banner.png");
+  background-image: url("imag/top-banner.png");
   background-repeat: no-repeat;
 }
 .highlight{
@@ -55,7 +55,7 @@ section{
 }
 .exp {
   padding-top: 80px;
-  background-image: url("images/exp-bg.png");
+  background-image: url("imag/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -83,4 +83,37 @@ footer p{
 .mid{
   font-size: 25px;
   font-weight: 500;
+}
+
+.dream-area{
+  background-image: url("imag/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+.contact{
+  border-left: 7px solid;
+  width: 20%;
+  float: left;
+  margin-left: 2%;
+  padding: 15px;
+  border-radius: 50px;
+  text-align: center;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice:1 ;
+
+}
+
+.l-contact h1{
+  text-align: center;
+}
+.links{
+  text-decoration: none;
+  text-align: center;
+  background-image: linear-gradient(45deg, blue, cyan);
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
 }
